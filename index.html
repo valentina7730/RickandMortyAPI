@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="encabezado">
+    <h1>The Rick and Morty API</h1>
+
+    <h3>Pagina</h3>
+  
+ 
+  <select name="pagina" id="pagina" onchange="apiRick(this.value)">
+    <script>
+      for(let i = 1; i <= 42; i++){
+        document.write(`<option value = "${i}">${i}</option>`);
+      }
+    </script>
+
+
+  </select>
+</nav>
+  <div id="resultado">
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+</body>
+</html>
